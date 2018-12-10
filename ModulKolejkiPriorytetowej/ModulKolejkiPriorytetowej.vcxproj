@@ -147,7 +147,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ModulKolejkiPriorytetowej.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PQueue.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PQueue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
